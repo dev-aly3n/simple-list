@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Fragment } from "react";
 import ListPage from "../components/listPage/ListPage";
 
-export default function career(): JSX.Element {
+export default function list(): JSX.Element {
   return (
     <Fragment>
       {/* <Head>
@@ -15,9 +15,7 @@ export default function career(): JSX.Element {
         <meta name="keywords" content={careerMeta.keywords} />
         <meta name="author" content={careerMeta.author} />
       </Head> */}
-      <div className="z-0">
         <ListPage />
-      </div>
     </Fragment>
   );
 }

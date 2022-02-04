@@ -54,9 +54,6 @@ const Header: React.FC = () => {
               </li>
             );
           })}
-          <li className="text-white" >
-            <a onClick={(e) => e.preventDefault()}>ToTheGate</a>
-          </li>
         </ul>
       </motion.div>
     </>

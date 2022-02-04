@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <Fragment>
-      {/* <Header /> */}
+      <Header />
       <Main>
       <Component {...pageProps} />
       </Main>

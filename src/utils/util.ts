@@ -1,4 +1,3 @@
-import { RefObject } from "react";
 
 // shimmer effect for image placeholder
 export const shimmer = (w:number, h:number):string => `
